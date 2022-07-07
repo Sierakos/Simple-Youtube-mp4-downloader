@@ -175,6 +175,7 @@ class YtDownloader():
     def completeFunc(self, *args):
         messagebox.showinfo("Success!", "Download complete!")
 
-root = Tk()
-YtDownloader(root)
-root.mainloop()
+if __name__ == '__main__':
+    root = Tk()
+    YtDownloader(root)
+    root.mainloop()
